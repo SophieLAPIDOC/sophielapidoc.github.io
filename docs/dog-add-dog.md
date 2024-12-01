@@ -65,3 +65,9 @@ Status code: `201 Created`
 |---|---|---|
 | 201 |Created  | Request successful. The server has created a new resource.  | 
 |ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+
+## Other `dog` endpoints
+* [Get all dogs](dog-get-all-dogs.md)
+* [Add a dog](dog-add-new-dog.md)
+* [Update the details of dog](dog-update-dog.md)
+* [Remove a dog](dog-delete-dog.md)
