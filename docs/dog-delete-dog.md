@@ -10,9 +10,10 @@ DELETE /dog/{id}
 
 ### Parameters
 
-| Parameter name   | Type   | Description   |   
+| Parameter name   | Type   | Description   |  
 |---|---|---|
 | `id`  | integer   | The record ID of the dog to remove. |  
+
 
 ### Sample request
 ```
