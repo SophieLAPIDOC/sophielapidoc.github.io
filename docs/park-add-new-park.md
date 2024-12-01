@@ -11,8 +11,9 @@ POST {base_url}/park
 ### Request body
 Include  the `park` respurce properties as listed in [park resource](park-ref.md).
 
-### Parameters
-| Property name   | Type   | Description   |   
+### Parameters    
+
+| Property name   | Type   | Description   | 
 |---|---|---|
 | `park_name`  | string   | The name of the park.  |
 | `town`  | string   | Town where the park is located.  |   
@@ -21,9 +22,7 @@ Include  the `park` respurce properties as listed in [park resource](park-ref.md
 | `amenities`  | string  | Brief enumeraton of amenities available to dogs.  |  
 | `comments`  | string   | Any additional information about the park.  |   
 | `rating`  | integer  | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
-| `id`   |integer  | The record ID of the pak.  |     
-
-
+| `id`   | integer  | The record ID of the pak.  | 
 
 ### Sample body
 
@@ -55,7 +54,7 @@ Status code: `201 Created`
 }
 ```
 ## Response status
-|Status value   |Return status  |Description   |   
+|Status value   | Return status  | Description   |   
 |---|---|---|
-| 201  |Created  | Request successful. The server created a new resource.  |  
-|ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+| 201  | Created  | Request successful. The server created a new resource.  |  
+| ECONNREFUSED| N/A| Service is offline. Start the service and try again.|
