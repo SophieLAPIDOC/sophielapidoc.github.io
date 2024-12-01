@@ -35,3 +35,9 @@ Status code: `200 OK`
 | 200  | OK (sucess)  | Request successful. The server has responded as required.  | 
 | 400  | Not found  | Service is offline. Start the service and try again.  | 
 | ECONNREFUSED  | N/A  | Service is offline. Start the service and try again.  |
+
+## Other `dog` endpoints
+* [Get all dogs](dog-get-all-dogs.md)
+* [Find a dog by ID](dog-get-dog-by-id.md)
+* [Add a dog](dog-add-new-dog.md)
+* [Update the details of dog](dog-update-dog.md)

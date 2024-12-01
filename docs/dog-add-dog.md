@@ -68,6 +68,6 @@ Status code: `201 Created`
 
 ## Other `dog` endpoints
 * [Get all dogs](dog-get-all-dogs.md)
-* [Add a dog](dog-add-new-dog.md)
+* [Find a dog by ID](dog-get-dog-by-id.md)
 * [Update the details of dog](dog-update-dog.md)
 * [Remove a dog](dog-delete-dog.md)
