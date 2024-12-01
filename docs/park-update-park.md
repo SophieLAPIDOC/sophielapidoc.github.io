@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 ## Update the details a of park
 
 Change any of the proprties for an existing `park` entry.

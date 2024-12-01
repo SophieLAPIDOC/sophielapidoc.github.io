@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 ## Get a dog by ID
 
 Get the catalogue details of a single dog identified by its unique ID.

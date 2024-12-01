@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 # `dog` resource
 
 Base endpoint:
@@ -50,5 +50,5 @@ Sample `dog` resource
   
 ## Related topics
 * [park](park-ref.md)
-* [tutorials](overview.md#tutorials)
+* [tutorials](index.md#tutorials)
 

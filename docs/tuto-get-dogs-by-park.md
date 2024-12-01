@@ -1,4 +1,4 @@
-# [WOOF! API Tutorials](overview.md#tutorials)
+# [WOOF! API Tutorials](index.md#tutorials)
 # Find who goes to your favourite park
 WOOF! connects people, dogs and parks. Before making a park your favourite hang out, check who is also a regular there. 
 ## Prerequisites 

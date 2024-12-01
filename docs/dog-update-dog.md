@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 ## Update the details of a dog
 Change any of the proprties for an existing `dog` entry.
 

@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 ## Remove a park
 Delete the details of a `par` from the WOOF! API.
 

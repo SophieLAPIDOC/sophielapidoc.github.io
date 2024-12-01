@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md#reference)
+# [WOOF! API Reference](index.md#reference)
 ## Remove a dog 
 Delete the details of a `dog` from the WOOF! API.
 

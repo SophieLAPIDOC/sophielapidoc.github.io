@@ -5,7 +5,7 @@ We'll also show you add a new park to WOOF!
 
 This should take about 15 - 20 minutes to complete. Just a short stroll.
 
-If you want to wander further afield, read our advanced [Tutorials](overview.md#tutorials).
+If you want to wander further afield, read our advanced [Tutorials](index.md#tutorials).
 
 ## Prerequisites 
  1. Start the json-server, as explained in [set up your environment](initial-setup.md).
@@ -98,4 +98,4 @@ Send as much information about the park as possible in the body of the request.
 }
 ```
 ## Related topics
-To discover other features of the WOOF! API, refer to the [Tutorials](overview.md#tutorials) section.
+To discover other features of the WOOF! API, refer to the [Tutorials](index.md#tutorials) section.

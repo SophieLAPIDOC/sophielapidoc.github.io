@@ -1,4 +1,4 @@
-# [WOOF! API Tutorials](overview.md#tutorials)
+# [WOOF! API Tutorials](index.md#tutorials)
 # Find other small dogs in your favourite park
 Whether your dog is large and boisterous, or small and timid, you might find it more comfortable to go to a park frequented by dogs the same size as yours.
 ## Prerequisites 

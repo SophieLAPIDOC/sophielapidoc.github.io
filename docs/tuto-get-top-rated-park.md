@@ -1,4 +1,4 @@
-# [WOOF! API Tutorials](overview.md#tutorials)
+# [WOOF! API Tutorials](index.md#tutorials)
 # Find the best parks (user-rated) in your town
 When nothing but the best park with great amenities will do, you can trust the community of WOOF! users to tell it like it is. 
 ## Prerequisites 
