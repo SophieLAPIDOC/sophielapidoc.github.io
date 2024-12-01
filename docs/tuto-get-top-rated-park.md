@@ -1,4 +1,4 @@
-###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+#### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Find the best parks (user-rated) in your town
 When nothing but the best park with great amenities will do, you can trust the community of WOOF! users to tell it like it is. 

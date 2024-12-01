@@ -1,4 +1,4 @@
-###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+#### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Find who goes to your favourite park
 WOOF! connects people, dogs and parks. Before making a park your favourite hang out, check who is also a regular there. 
