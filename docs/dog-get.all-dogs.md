@@ -11,11 +11,12 @@ GET /dog
 
 
 ### (Optional) Query Parameters
-| Parameter name   |Type   |Description   |   
+
+| Parameter name   | Type   | Description   |   
 |---|---|---|
-| `size`  |string   | Filter the list by the dog size category: Large, Medium, Large.  |  
-| `zip_code`  |string   | Filter the list by the zip code where dog and humans reside.  |   
-| `at_the_park_?`  |string   | Filter the list by the dog's presence at the park: Y, N.|   
+| `size`  | string   | Filter the list by the dog size category: Large, Medium, Large.  |  
+| `zip_code`  | string   | Filter the list by the zip code where dog and humans reside.  |   
+| `at_the_park_?`  | string   | Filter the list by the dog's presence at the park: Y, N. |     
 
 ### Sample request
 ```
