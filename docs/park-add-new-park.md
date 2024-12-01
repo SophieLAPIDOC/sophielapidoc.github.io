@@ -54,7 +54,8 @@ Status code: `201 Created`
 }
 ```
 ## Response status
-|Status value   | Return status  | Description   |   
+
+| Status value   | Return status  | Description   |    
 |---|---|---|
 | 201  | Created  | Request successful. The server created a new resource.  |  
-| ECONNREFUSED| N/A| Service is offline. Start the service and try again.|
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again.| 
