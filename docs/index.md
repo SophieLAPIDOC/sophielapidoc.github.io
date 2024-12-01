@@ -1,4 +1,5 @@
-# WOOF! API Documentation
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 Greetings, Humans! 
 
 The WOOF! API is a service dedicated to connecting dogs, parks and people.

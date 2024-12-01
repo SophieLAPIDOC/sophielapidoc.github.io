@@ -1,4 +1,5 @@
-# [WOOF! API Reference](index.md#reference)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 ## Get all dogs
 
 Get the full list of the dogs registered in the WOOF! API identified by their unique ID.

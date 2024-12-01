@@ -1,4 +1,5 @@
-# [WOOF! API Reference](index.md#reference)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 ## Remove a park
 Delete the details of a `par` from the WOOF! API.
 

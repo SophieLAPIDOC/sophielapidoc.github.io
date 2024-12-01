@@ -1,4 +1,5 @@
-# [WOOF! API Tutorials](index.md#tutorials)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 # Update your dog's presence at the park
 The WOOF! API allows to update your dog's presence at the park in real time, so that your dog's friends can come and join you (or avoid you).
 ## Prerequisites 

@@ -1,4 +1,5 @@
-# [WOOF! API Reference](index.md#reference)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 ## Get a dog by ID
 
 Get the catalogue details of a single dog identified by its unique ID.

@@ -1,3 +1,5 @@
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 # Get started with the WOOF! API
 Using the WOOF! API is a walk in the park. 
 In this quick start topic, we'll show you how to find a park in your town, then add your dog's profile to the service. 

@@ -1,4 +1,5 @@
-# [WOOF! API Reference](index.md#reference)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 ## Find a park by ID
 
 Get the details of a single park identified by its unique ID.

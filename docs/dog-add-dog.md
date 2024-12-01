@@ -1,4 +1,5 @@
-# [WOOF! API Reference](index.md#reference)
+###### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
+
 ## Add a dog
 Create a new catalogue entry for a dog.
 
