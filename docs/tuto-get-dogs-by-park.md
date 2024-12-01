@@ -6,7 +6,7 @@ WOOF! connects people, dogs and parks. Before making a park your favourite hang 
  1. Start the json-server, as explained in [set up your environment](initial-setup.md).
  2. Open the [Postman desktop app](https://www.postman.com/downloads/).
 
- ## 1. Find park in your town
+## 1. Find park in your town
 First let's find a list of parks in Madison CT.
 ### Request
 Send the following request with the parameter `town`: `Madison`.

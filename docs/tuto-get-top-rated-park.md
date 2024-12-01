@@ -61,5 +61,4 @@ GET http://localhost:3000/park?rating_gte=4
 ## Other tutorials
 * [Update your dog's presence at the park](tuto-update-park-presence.md)
 * [Find other small dogs in your favourite park.](tuto-get-park-small-dogs.md)
-
 * [Find who goes to your favourite park](tuto-get-dogs-by-park.md)

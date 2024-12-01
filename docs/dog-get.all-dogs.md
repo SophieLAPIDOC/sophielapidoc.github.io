@@ -58,3 +58,5 @@ Status code: `200 OK`
 |:-------------|:------------------|:------|
 | 200  | OK (sucess)  | Request successful. The server has responded as required.  |  
 | ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+
+|---|||
