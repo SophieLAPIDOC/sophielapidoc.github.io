@@ -59,3 +59,9 @@ Status code: `201 Created`
 |---|---|---|
 | 201  | Created  | Request successful. The server created a new resource.  |  
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again.| 
+
+## Other `park` resources
+* [Get all parks](park-get-all-parks.md)
+* [Find a park by ID](park-get-park-by-id)
+* [Update the details of park](park-update-park.md)
+* [Remove a park](park-delete-park.md)

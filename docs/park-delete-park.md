@@ -37,3 +37,9 @@ Returns an empty `park` object.
 | 200  | OK (sucess)  | Request successful. The server has responded as required.  |  
 | 404 | Not found | Requested resource could not be found. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Other `park` references
+* [Get all parks](park-get-all-parks.md)
+* [Find a park by ID](park-get-park-by-id)
+* [Add a park](park-add-new-park.md)
+* [Update the details of park](park-update-park.md)
