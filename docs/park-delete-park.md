@@ -9,9 +9,10 @@ DELETE /park/{id}
 ```
 
 ## Parameters
+
 | Parameter name   | Type   | Description   |   
 |---|---|---|
-| `id`  | number   | The record ID of the park to remove. |  
+| `id`  | number   | The record ID of the park to remove. |   
 
 ## Sample request
 ```
