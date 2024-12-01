@@ -39,5 +39,5 @@ Status code: `200 OK`
 ## Other `dog` endpoints
 * [Get all dogs](dog-get-all-dogs.md)
 * [Find a dog by ID](dog-get-dog-by-id.md)
-* [Add a dog](dog-add-new-dog.md)
+* [Add a dog](dog-add-dog.md)
 * [Update the details of dog](dog-update-dog.md)
