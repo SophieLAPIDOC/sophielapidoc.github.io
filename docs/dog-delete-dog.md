@@ -9,9 +9,10 @@ DELETE /dog/{id}
 ```
 
 ### Parameters
-|Parameter name   |Type   |Description   |   
+
+| Parameter name   | Type   | Description   |   
 |---|---|---|
-| `id`  |integer   | The record ID of the dog to remove. |  
+| `id`  | integer   | The record ID of the dog to remove. |  
 
 ### Sample request
 ```
@@ -27,8 +28,9 @@ Status code: `200 OK`
 {}
 ```
 ## Response status
-|Status value   |Return status  |Description   |   
+
+| Status value   | Return status  | Description   |   
 |---|---|---|
-|200  |OK (sucess)  | Request successful. The server has responded as required.  |  
-|404|Not found|Requested resource could not be found.|
-|ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+| 200  | OK (sucess)  | Request successful. The server has responded as required.  |  
+| 404 | Not found|Requested resource could not be found. |
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
