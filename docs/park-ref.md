@@ -8,7 +8,7 @@ Base endpoint:
 ```
 {base_url}/park
 ```
-**Note:** The `{base_url}` will vary depending on your developemnt environement. When running the WOOF!API locally, the `{base_url}` is `http://localhost:3000`.
+**Note:** The `{base_url}` will vary depending on your developemnt environement. When running the WOOF! API locally, the `{base_url}` is `http://localhost:3000`.
 
 `park` contains details about the parks registered in the WOOF! API. 
 ## Resource properties
