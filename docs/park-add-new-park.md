@@ -12,7 +12,7 @@ POST {base_url}/park
 Include  the `park` respurce properties as listed in [park resource](park-ref.md).
 
 ### Parameters
-|Property name   |Type   |Description   |   
+| Property name   | Type   | Description   |   
 |---|---|---|
 | `park_name`  | string   | The name of the park.  |
 | `town`  | string   | Town where the park is located.  |   
