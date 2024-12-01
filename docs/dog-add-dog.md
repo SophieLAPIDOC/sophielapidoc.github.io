@@ -64,3 +64,11 @@ Status code: `201 Created`
 |---|---|---|
 | 201 |Created  | Request successful. The server has created a new resource.  | 
 |ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
