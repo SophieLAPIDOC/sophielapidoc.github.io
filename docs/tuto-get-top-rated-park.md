@@ -5,8 +5,10 @@ When nothing but the best park with great amenities will do, you can trust the c
 ## Prerequisites 
  1. Start the json-server, as explained in [set up your environment](initial-setup.md).
  2. Open the [Postman desktop app](https://www.postman.com/downloads/).
+
 ## 1. Find a park by rating in your towm
 Send the following request to retrieve a list of parks in Madison CT with the rating of 5 stars. This request combines two query parameters: `town`: `Madison` and `rating`: `5`.
+
 ### Request
 ```
 GET http://localhost:3000/park?town=Madison&rating=5
