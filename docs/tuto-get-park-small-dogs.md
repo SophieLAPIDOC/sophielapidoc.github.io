@@ -2,11 +2,14 @@
 
 # Find other small dogs in your favourite park
 Whether your dog is large and boisterous, or small and timid, you might find it more comfortable to go to a park frequented by dogs the same size as yours.
+
 ## Prerequisites 
  1. Start the json-server, as explained in [set up your environment](initial-setup.md).
  2. Open the [Postman desktop app](https://www.postman.com/downloads/).
+
 ## Find small dogs by park id
 In the previous tutorial [Find who goes to your favourite park](tuto-get-dogs-by-park.md) we have learned that Madison Dog Park has `id`: `3`.
+
 ### Request
 To find out if other small dogs attending Madison Dog Park send the following request:
 ```
