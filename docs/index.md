@@ -35,7 +35,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
     * [Remove a dog](dog-delete-dog.md)
 * [park](park-ref.md)
     * [Get all parks](park-get-all-parks.md)
-    * [Find a park by ID](park-get-park-by-id.a )
+    * [Find a park by ID](park-get-park-by-id)
     * [Add a park](park-add-new-park.md)
     * [Update the details of park](park-update-park.md)
     * [Remove a park](park-delete-park.md)
