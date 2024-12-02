@@ -3,13 +3,5 @@
 
 @import 'jekyll-theme-cayman';
 
-/* sophie's custom styles*/
 
-.site-footer
-{
-    background-image: url("/assets/site-images/dog-footer-small.png");
-    height: 215px; 
-    background-position: center; 
-    background-repeat: repeat; 
-    background-size: cover; 
-}
+
