@@ -3,7 +3,7 @@
 Greetings, Humans! 
 
 The WOOF! API is a service dedicated to connecting dogs, parks and people.
-The WOOF! service aims to enhance your dog walking experience by connecting you and your dog to the best parks the country
+The WOOF! service aims to enhance your dog walking experience by connecting you and your dog to the best parks the country.
 * **New in town?** Quickly connect to established dog groups.
 * **Just passing trough?** Take a break in a new park with all the required amenities where you can also throw a ball and maybe even have a chat.
 
