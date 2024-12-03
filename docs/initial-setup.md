@@ -37,9 +37,9 @@ For detailed instructions, refer to [Clone a repository](https://docs.github.com
 ## Test the json-server
 1. Open GitHub Desktop.
 2. Ensure **Current repository** is set to cloned copy of WOOF!
-3. From **Reppository** (menu), select **Open Git Bash**.
+3. From **Repository** (menu), select **Open Git Bash**.
 3. In GitBash, check  it displays the file path to your cloned repository.
-4. Run the following command to naviagte to athe API directory:
+4. Run the following command to navigate to the API directory:
 
     ```
     cd api
@@ -107,4 +107,4 @@ If you don't see the list of dogs, or receive an error in any step of the proced
 * A required software component did not install correctly.
 * A required software component is not up to date.
 
-Once you see a list of dogs, uccess! You are now ready for your [first tutorial](quick-start.md).
+Once you see a list of dogs, success! You are now ready for your [first tutorial](quick-start.md).

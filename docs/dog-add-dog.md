@@ -13,7 +13,7 @@ POST {base_url}/dog
 
 
 ### Request body
-Include  the `dog` respurce properties as listed in [dog resource](dog-ref.md).
+Include  the `dog` resource properties as listed in [dog resource](dog-ref.md).
 
 |Property name   |Type   |Description   |   
 |---|---|---|

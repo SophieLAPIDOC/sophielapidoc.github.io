@@ -7,7 +7,7 @@ Base endpoint:
 ```
 {base_url}/dog
 ```
-**Note:** The `{base_url}` will vary depending on your developemnt environement. When running the WOOF! API locally, the `{base_url}` is `http://localhost:3000`.
+**Note:** The `{base_url}` will vary depending on your development environment. When running the WOOF! API locally, the `{base_url}` is `http://localhost:3000`.
 
 `dog` contains details about the dog(s) registered in the WOOF! API.
 ## Resource properties

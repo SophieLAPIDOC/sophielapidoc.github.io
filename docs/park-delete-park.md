@@ -34,7 +34,7 @@ Returns an empty `park` object.
 
 | Status value   | Return status  | Description   |   
 |---|---|---|
-| 200  | OK (sucess)  | Request successful. The server has responded as required.  |  
+| 200  | OK (success)  | Request successful. The server has responded as required.  |  
 | 404 | Not found | Requested resource could not be found. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 

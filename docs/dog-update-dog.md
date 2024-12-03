@@ -11,7 +11,7 @@ PUT /dog/{id}
 * `Content-Type`: `application/json`
 
 ### Request body
-When using the **POST** method include  all the `dog` respurce properties as listed in [dog resource](dog-ref.md) and change the values, as required.
+When using the **POST** method include  all the `dog` resource properties as listed in [dog resource](dog-ref.md) and change the values, as required.
 
 |Property name   |Type   |Description   |   
 |---|---|---|

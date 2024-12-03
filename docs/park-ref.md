@@ -8,7 +8,7 @@ Base endpoint:
 ```
 {base_url}/park
 ```
-**Note:** The `{base_url}` will vary depending on your developemnt environement. When running the WOOF! API locally, the `{base_url}` is `http://localhost:3000`.
+**Note:** The `{base_url}` will vary depending on your development environment. When running the WOOF! API locally, the `{base_url}` is `http://localhost:3000`.
 
 `park` contains details about the parks registered in the WOOF! API. 
 ## Resource properties
@@ -31,10 +31,10 @@ Base endpoint:
 | `town`  |string   | Town where the park is located.  |   
 | `coordinates`  |number  | Geographic coordinates of the park, as decimal degrees. |    
 | `hours`  |string   | Opening hours of the park.  |  
-| `amenities`  |string  | Brief enumeraton of amenities available to dogs.  | 
+| `amenities`  |string  | Brief enumeration of amenities available to dogs.  | 
 | `comments`  |string   | Any additional information about the park.  |    
-| `rating`  |integer  | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
-| `id`  |integer  | The record ID of the pak.  | 
+| `rating`  |integer  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `id`  |integer  | The record ID of the park.  | 
 
 
 ## Endpoints

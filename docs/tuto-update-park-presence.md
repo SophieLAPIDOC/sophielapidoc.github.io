@@ -8,7 +8,7 @@ The WOOF! API allows to update your dog's presence at the park in real time, so 
     
 ## Update your dog's presence at the park
 ### Request
-To update youyr dog's presence at the park, send the following request:
+To update your dog's presence at the park, send the following request:
 ```
 PATCH http://localhost:3000/dog/4
 ```
@@ -22,7 +22,7 @@ In the body of the request, send the parameter `at_the_park_?` as `Y` if you are
 ```
 
 ### Response
-The WOOF! API returns a the entire dog's record with the updated `at_the_park_?` parameter now set to `Y`. 
+The WOOF! API returns the entire dog's record with the updated `at_the_park_?` parameter now set to `Y`. 
 ```json
 {
     "name": "Loki",

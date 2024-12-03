@@ -2,7 +2,7 @@
 
 ## Update the details a of park
 
-Change any of the proprties for an existing `park` entry.
+Change any of the properties for an existing `park` entry.
 
 ### Request
 ```
@@ -12,7 +12,7 @@ PUT /park/{id}
 * `Content-Type`: `application/json`
 
 ### Request body
-When using the **POST** method include  all the `park` respurce properties as listed in [park resource](park-ref.md) and change the values, as required.
+When using the **POST** method include  all the `park` resource properties as listed in [park resource](park-ref.md) and change the values, as required.
 
 
 
@@ -24,10 +24,10 @@ When using the **POST** method include  all the `park` respurce properties as li
 | `town`  |string   | Town where the park is located.  |   
 | `coordinates`  |number  | Geographic coordinates of the park, as decimal degrees. |   
 | `hours`  |string   | Opening hours of the park.  |   
-| `amenities`  |string  | Brief enumeraton of amenities available to dogs.  |  
+| `amenities`  |string  | Brief enumeration of amenities available to dogs.  |  
 | `comments`  |string   | Any additional information about the park.  |   
-| `rating`  |integer  | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
-| `id`  |integer  | The record ID of the pak.  | 
+| `rating`  |integer  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `id`  |integer  | The record ID of the park.  | 
 
 ## Sample request
 ```
@@ -71,7 +71,7 @@ Status code: `200 OK`
 
 | Status value   | Return status  | Description   |   
 |---|---|---|
-| 200  | OK (sucess)  | Request successful. The server has responded as required.  |  
+| 200  | OK (success)  | Request successful. The server has responded as required.  |  
 | 404 | Not found | Requested resource could not be found. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
