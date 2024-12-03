@@ -1,11 +1,6 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
-
-/*sophie - custom styles*/
-.site-footer
-{
-text-align: center;
-}
+@import "jekyll-theme-cayman";
+@import "sophie-custom.css";
 
