@@ -1,18 +1,20 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Remove a dog 
 Delete the details of a `dog` from the WOOF! API.
 
 ### Request
-```
-DELETE /dog/{id}
-```
+
+<span class="button" id="delete">DELETE</span>`/dog/{id}`
+
 
 ### Parameters
 
 | Parameter name   | Type   | Description   |  
 |---|---|---|
-| `id`  | integer   | The record ID of the dog to remove. |  
+| `id`  | number   | The record ID of the dog to remove. |  
 
 
 ### Sample request
@@ -23,7 +25,7 @@ DELETE /dog/{id}
 ## Sample response
 Returns an empty object.
 
-Status code: `200 OK`
+**Status code:** <span class="status-2xx">200 OK</span>
 
 ```json
 {}

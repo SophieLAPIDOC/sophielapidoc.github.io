@@ -1,12 +1,14 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Remove a park
 Delete the details of a `par` from the WOOF! API.
 
 ### Request
-```
-DELETE /park/{id}
-```
+
+<span class="button" id="delete">DELETE</span>`/park/{id}`
+
 
 ## Parameters
 
@@ -22,7 +24,7 @@ DELETE /park/{id}
 
 ## Sample response
 
-Status code: `200 OK`
+**Status code:** <span class="status-2xx">200 OK</span>
 
 Returns an empty `park` object.
 

@@ -1,12 +1,14 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Get all parks
 Get the full list of the parks registered in the WOOF! API identified by their unique ID.
 
 ### Request
-```
-GET /park
-```
+
+<span class="button" id="delete">GET</span>`/park`
+
 
 ## (Optional) Query Parameters
 
@@ -25,7 +27,7 @@ GET /park
 
 
 ## Sample response
-Status code: `200 OK`
+**Status code:** <span class="status-2xx">200 OK</span>
 
 ```json
  {

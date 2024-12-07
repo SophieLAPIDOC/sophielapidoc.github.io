@@ -33,8 +33,8 @@ Base endpoint:
 | `hours`  |string   | Opening hours of the park.  |  
 | `amenities`  |string  | Brief enumeration of amenities available to dogs.  | 
 | `comments`  |string   | Any additional information about the park.  |    
-| `rating`  |integer  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
-| `id`  |integer  | The record ID of the park.  | 
+| `rating`  |number  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `id`  |number  | The record ID of the park.  | 
 
 
 ## Endpoints

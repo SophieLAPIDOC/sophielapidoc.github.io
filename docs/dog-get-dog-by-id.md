@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Get a dog by ID
@@ -5,9 +7,8 @@
 Get the catalogue details of a single dog identified by its unique ID.
 
 ### Request
-```
-GET /dog/{id}
-```
+
+<span class="button" id="get">GET</span>`/dog/{id}`
 
 
 ### Parameters
@@ -24,7 +25,7 @@ GET /dog/{id}
 ### Sample response
 Returns the details of the dog identified by its unique ID.
 
-Status code: `200 OK`
+**Status code:** <span class="status-2xx">200 OK</span>
 
 ```json
 {

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Find who goes to your favourite park
@@ -10,9 +12,9 @@ WOOF! connects people, dogs and parks. Before making a park your favourite hang 
 First let's find a list of parks in Madison CT.
 ### Request
 Send the following request with the parameter `town`: `Madison`.
-```
-GET http://localhost:3000/park?town=Madison
-```
+
+<span class="button" id="get">GET</span>`http://localhost:3000/park?town=Madison`
+
 
 ### Response
 The request returns an array of two parks. Make note of `id`: `3`.
@@ -43,9 +45,9 @@ The request returns an array of two parks. Make note of `id`: `3`.
  ## 2. Find dogs by park id
  Let's find who is a regular attendee at Madison Dog Park with `id`: `3` and check if they would make a suitable playmate.
  ### Request
-```
-GET http://localhost:3000/dog?park_id=3
-```
+
+<span class="button" id="get">GET</span>`http://localhost:3000/dog?park_id=3`
+
 
 ### Response
 The request returns the details of two dogs: Bella and Mr. Henry Sullivan.

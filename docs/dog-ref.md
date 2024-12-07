@@ -1,6 +1,6 @@
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
-# `dog` resource
+# <span class="code-h1">`dog`</span> resource
 
 Base endpoint:
 
@@ -39,8 +39,8 @@ Sample `dog` resource
 | `zip_code`  |string   | Zip Code where dog and humans reside.  |   
 | `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
 | `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
-| `park_id`  |integer  | The record ID of the park.  |   
-| `id`  |integer   | The record ID of the dog.  |   
+| `park_id`  | number  | The record ID of the park.  |   
+| `id`  | number  | The record ID of the dog.  |   
 
 ## Endpoints
 * [Get all dogs](dog-get-all-dogs.md)

@@ -1,12 +1,14 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Add a park 
 Create a new catalogue entry for a park
 
 ### Request
-```
-POST {base_url}/park
-```
+
+<span class="button" id="post">POST</span>`{base_url}/park`
+
 
 ### Request body
 Include  the `park` resource properties as listed in [park resource](park-ref.md).
@@ -22,7 +24,7 @@ Include  the `park` resource properties as listed in [park resource](park-ref.md
 | `amenities`  | string  | Brief enumeration of amenities available to dogs.  |  
 | `comments`  | string   | Any additional information about the park.  |   
 | `rating`  | integer  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
-| `id`   | integer  | The record ID of the park.  | 
+| `id`   | number  | The record ID of the park.  | 
 
 ### Sample body
 

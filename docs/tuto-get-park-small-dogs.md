@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Find other small dogs in your favourite park
@@ -12,13 +14,13 @@ In the previous tutorial [Find who goes to your favourite park](tuto-get-dogs-by
 
 ### Request
 To find out if other small dogs attending Madison Dog Park send the following request:
-```
-GET http://localhost:3000/dog?park_id=3&size=Small
-```
+ 
+<span class="button" id="get">GET</span>`http://localhost:3000/dog?park_id=3&size=Small`
+
 To find out if any small dog is currently at Madison Dog Park CT, include an additional query parameter in your request: `at_the_park_?` and filter on `Y`.
-```
-GET http://localhost:3000/dog?park_id=3&size=Small&at_the_park_?=Y
-```
+
+<span class="button" id="get">GET</span>`http://localhost:3000/dog?park_id=3&size=Small&at_the_park_?=Y`
+
 
 ### Response
 Little Bella is a regular attendee at Madison Dog Park and she is there right now. Time to grab the leash and head out.

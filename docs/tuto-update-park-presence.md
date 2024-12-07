@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Update your dog's presence at the park
@@ -9,9 +11,9 @@ The WOOF! API allows to update your dog's presence at the park in real time, so 
 ## Update your dog's presence at the park
 ### Request
 To update your dog's presence at the park, send the following request:
-```
-PATCH http://localhost:3000/dog/4
-```
+
+<span class="button" id="patch">PATCH</span>`http://localhost:3000/dog/4`
+
 
 ### Request Body
 In the body of the request, send the parameter `at_the_park_?` as `Y` if you are at the park (or on your way), `N` if you are about to leave.  

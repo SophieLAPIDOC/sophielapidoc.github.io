@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Find a park by ID
@@ -5,15 +7,15 @@
 Get the details of a single park identified by its unique ID.
 
 ### Request
-```
-GET /park/{id}
-```
+
+<span class="button" id="get">GET</span>`/park/{id}`
+
 
 ## Parameters
 
 |Parameter name   |Type   |Description   |   
 |---|---|---|
-| `id`  |integer  | Park's record ID.   |
+| `id`  |number  | Park's record ID.   |
 
 ### Sample request
 ```
@@ -21,7 +23,7 @@ GET /park/{id}
 ``` 
 
 ## Sample response
-Status code: `200 OK`
+**Status code:** <span class="status-2xx">200 OK</span>
 
 ```json
 {

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Get started with the WOOF! API
@@ -16,9 +18,9 @@ If you want to wander further afield, read our advanced [Tutorials](index.md#tut
 
 ## Find a park in your town
 To locate a dog park in a specific town - in this example, let's use Madison CT - send this request:
-```
-POST http://localhost:3000/park?town=Madison
-```
+
+<span class="button" id="post">POST</span>`http://localhost:3000/park?town=Madison`
+
 If  a park record is found for Madison CT, WOOF! returns the following details:
 ```json
 {
@@ -37,9 +39,9 @@ If  a park record is found for Madison CT, WOOF! returns the following details:
 To connect with other park users or let them know when they are present in a specific park, owners must register their dog(s) with WOOF!
 
 This request creates a new dog record in the service.
-```
-POST http://localhost:3000/dog/
-```
+
+<span class="button" id="post">POST</span>`http://localhost:3000/dog/`
+
 To add a profile for Tiana, the Husky Cross, send this information in the body of the request:
 ```json
 {
@@ -82,10 +84,9 @@ Town councils and Park services sometimes open new dog parks. To keep WOOF! up-t
 
 To add a new par to WOOF!, send this request:
 
-```
-POST http://localhost:3000/park
+<span class="button" id="post">POST</span>`http://localhost:3000/park`
 
-```
+
 Send as much information about the park as possible in the body of the request. 
 
 ```json

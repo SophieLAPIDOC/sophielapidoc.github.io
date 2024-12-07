@@ -11,7 +11,7 @@ PUT /dog/{id}
 * `Content-Type`: `application/json`
 
 ### Request body
-When using the **POST** method include  all the `dog` resource properties as listed in [dog resource](dog-ref.md) and change the values, as required.
+When using the **PUT** method include  all the `dog` resource properties as listed in [dog resource](dog-ref.md) and change the values, as required.
 
 |Property name   |Type   |Description   |   
 |---|---|---|
@@ -23,8 +23,8 @@ When using the **POST** method include  all the `dog` resource properties as lis
 | `zip_code`  |string   | Zip Code where dog and humans reside.  |   
 | `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
 | `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
-| `park_id`  |integer  | The record ID of the park.  |   
-| `id`  |integer   | The record ID of the dog.  | 
+| `park_id`  | number  | The record ID of the park.  |   
+| `id`  | number   | The record ID of the dog.  | 
 
 ### Sample request
 ```

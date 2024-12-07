@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 # Find the best parks (user-rated) in your town
@@ -10,9 +12,9 @@ When nothing but the best park with great amenities will do, you can trust the c
 Send the following request to retrieve a list of parks in Madison CT with the rating of 5 stars. This request combines two query parameters: `town`: `Madison` and `rating`: `5`.
 
 ### Request
-```
-GET http://localhost:3000/park?town=Madison&rating=5
-```
+
+<span class="button" id="get">GET</span>`http://localhost:3000/park?town=Madison&rating=5`
+
 
 ### Response
 ```json
@@ -32,9 +34,8 @@ If you want to widen your search, you can use a comparison operator. For example
 
 ### Request
 
-```
-GET http://localhost:3000/park?rating_gte=4
-```
+
+<span class="button" id="get">GET</span>http://localhost:3000/park?rating_gte=4`
 ### Response
 ```json
 [

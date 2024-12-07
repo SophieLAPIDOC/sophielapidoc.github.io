@@ -1,6 +1,47 @@
 
-
-.site-footer
+.button
 {
-text-align: center;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight:bold;
+}
+
+#post
+{
+    background-color:#8bc5ed;
+}
+#delete
+{
+    background-color:#ec4879;
+}
+
+#get
+{
+    background-color:#9bed8b;
+}
+
+#patch,
+#put
+{
+    background-color:#eb7a10;
+}
+
+
+.status-2xx
+{
+    background-color:#e5fff1;
+    color:#007F31;
+    padding:5px;
+}
+
+.status-4xx
+{
+    background-color:#dce0de;
+ 
+}
+
+.status-noconn
+{
+    background-color:#b806af;
+    
 }

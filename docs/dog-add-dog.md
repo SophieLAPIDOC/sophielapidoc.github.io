@@ -1,15 +1,17 @@
+<link rel="stylesheet" type="text/css" href="./assets/css/sophie-custom.css" />
+
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
 ## Add a dog
 Create a new catalogue entry for a dog.
 
 ### Request
-```
-POST {base_url}/dog
-```
+
+<span class="button" id="post">POST</span>`{base_url}/dog`
+
 
 ### Request Headers
-* `Content-Type`: `application/json`
+**Content-Type**: `application/json`
 
 
 ### Request body
@@ -25,8 +27,8 @@ Include  the `dog` resource properties as listed in [dog resource](dog-ref.md).
 | `zip_code`  |string   | Zip Code where dog and humans reside.  |   
 | `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
 | `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
-| `park_id`  |integer  | The record ID of the park.  |   
-| `id`  |integer   | The record ID of the dog.  | 
+| `park_id`  |number  | The record ID of the park.  |   
+| `id`  |number  | The record ID of the dog.  | 
 
 ### Sample body
 
@@ -44,7 +46,7 @@ Include  the `dog` resource properties as listed in [dog resource](dog-ref.md).
 }
 ```
 ### Sample response
-Status code: `201 Created`
+**Status code:** <span class="status-2xx">201 Created</span>
 ```json
 {
     "name": "Beckett",
@@ -61,10 +63,10 @@ Status code: `201 Created`
 ```
 ## Response status
 
-|Status value   |Return status  |Description   |   
+|Status value   | Return status  | Description   |   
 |---|---|---|
-| 201 |Created  | Request successful. The server has created a new resource.  | 
-|ECONNREFUSED|N/A|Service is offline. Start the service and try again.|
+| 201 | Created  | Request successful. The server has created a new resource.  | 
+|ECONNREFUSED | N/A | Service is offline. Start the service and try again.|
 
 ## Other `dog` endpoints
 * [Get all dogs](dog-get-all-dogs.md)
