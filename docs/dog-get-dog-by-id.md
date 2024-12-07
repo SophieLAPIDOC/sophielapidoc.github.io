@@ -19,7 +19,7 @@ Get the catalogue details of a single dog identified by its unique ID.
 
 ### Sample request
 ```
-{base_url}/dog/4
+GET {base_url}/dog/4
 ``` 
 
 ### Sample response

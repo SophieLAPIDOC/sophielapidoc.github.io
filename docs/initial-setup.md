@@ -35,10 +35,18 @@ For detailed instructions, refer to [Fork a repository](https://docs.github.com/
 For detailed instructions, refer to [Clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) on GitHub Docs.
 
 ## Test the json-server
+**Note:** This example assume your deveopement environement is Windows. On other development environement, you may want to use the `cmd` tool instead of GitBash. 
+
 1. Open GitHub Desktop.
 2. Ensure **Current repository** is set to cloned copy of WOOF!
+
+    ![GitHubDeskTop](./assets/site-images/github-desk-branch.png)
 3. From **Repository** (menu), select **Open Git Bash**.
+
+    ![OpenGItBash](./assets/site-images/open-gitbash.png)
 3. In GitBash, check  it displays the file path to your cloned repository.
+    
+    ![gITbASHpATH](./assets/site-images/gitbash-PATH.png)
 4. Run the following command to navigate to the API directory:
 
     ```

@@ -1,6 +1,6 @@
 #### Back to [Home](index.md) | [Get started](index.md#get-started) | [Tutorials](index.md#tutorials) | [References](index.md#reference)
 
-# <span class="code-h1">`dog`</span> resource
+# `dog` resource
 
 Base endpoint:
 
@@ -31,13 +31,13 @@ Sample `dog` resource
 
 |Property name   |Type   |Description   |   
 |---|---|---|
-| `name`  |string   | The name of the dog.  |
-| `photo`  |string   | File path to the dog's photo.  |   
-| `breed`  |string   | The record ID of the user.  |   
+| `name`  |string   | (Mandatory) The name of the dog.  |
+| `photo`  |string   | (Optional) File path to the dog's photo, if supplied  |   
+| `breed`  |string   | (Mandatory) The breed of the dog.  |   
 | `size`  |string   | The size category of the dog: Small, Medium, Large.  |   
-| `human`  |string  | The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  | 
-| `zip_code`  |string   | Zip Code where dog and humans reside.  |   
-| `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
+| `human`  |string  | (Mandatory) The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  | 
+| `zip_code`  |string   | Zip Code where dog(s) and human(s) reside.  |   
+| `something_about_yourself`  |string   | (Optional) A short description of the dog's character personality.  |   
 | `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
 | `park_id`  | number  | The record ID of the park.  |   
 | `id`  | number  | The record ID of the dog.  |   

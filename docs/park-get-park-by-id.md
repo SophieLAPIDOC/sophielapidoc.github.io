@@ -19,7 +19,7 @@ Get the details of a single park identified by its unique ID.
 
 ### Sample request
 ```
-{base_url}/park/4
+GET {base_url}/park/4
 ``` 
 
 ## Sample response

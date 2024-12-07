@@ -18,7 +18,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 
 ## Get started
 * [Set up your environment and connect to WOOF!](initial-setup.md)
-* [Find a dog park in your town, then add your dog's profile to WOOF!](quick-start.md)
+* [Find a dog park in your town, then add your dog's profile to WOOF!](quick-start.md#find-a-park-in-your-town)
 
 ## Tutorials
 * [Find the best parks (user-rated) in your town](tuto-get-top-rated-park.md).
@@ -26,7 +26,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * [Find other small dogs in your favourite park](tuto-get-park-small-dogs.md).
 * [Find who goes to your favourite park](tuto-get-dogs-by-park.md).
 
-## Reference
+## REST API Reference
 * [dog](dog-ref.md)
     * [Get all dogs](dog-get-all-dogs.md)
     * [Find a dog by ID](dog-get-dog-by-id.md)

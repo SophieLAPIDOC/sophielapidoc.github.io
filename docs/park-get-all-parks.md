@@ -21,7 +21,7 @@ Get the full list of the parks registered in the WOOF! API identified by their u
 ## Sample request
 
 ```
-{base_url}/park?town=Clinton
+GET {base_url}/park?town=Clinton
 ```
 
 

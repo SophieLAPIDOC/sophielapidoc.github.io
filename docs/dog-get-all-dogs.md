@@ -20,7 +20,7 @@ Get the full list of the dogs registered in the WOOF! API identified by their un
 
 ### Sample request
 ```
-{base_url}/dog?size=Small
+GET {base_url}/dog?size=Small
 ```
 
 ### Sample response

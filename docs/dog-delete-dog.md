@@ -19,7 +19,7 @@ Delete the details of a `dog` from the WOOF! API.
 
 ### Sample request
 ```
-{base_url}/dog/3
+DELETE {base_url}/dog/3
 ```
 
 ## Sample response

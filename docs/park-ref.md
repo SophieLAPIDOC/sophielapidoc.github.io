@@ -27,13 +27,13 @@ Base endpoint:
 
 |Property name   |Type    |  Description | 
 |---|---|---|
-| `park_name`  |string   | The name of the park.  |
-| `town`  |string   | Town where the park is located.  |   
-| `coordinates`  |number  | Geographic coordinates of the park, as decimal degrees. |    
-| `hours`  |string   | Opening hours of the park.  |  
-| `amenities`  |string  | Brief enumeration of amenities available to dogs.  | 
+| `park_name`  |string   | (Mandatory) The name of the park.  |
+| `town`  |string   | (Mandatory) Town where the park is located.  |   
+| `coordinates`  |number  | (Optional) Geographic coordinates of the park, as decimal degrees. |    
+| `hours`  |string   | (Mandatory) Opening hours of the park.  |  
+| `amenities`  |string  | (Mandatory) Brief enumeration of amenities available to dogs.  | 
 | `comments`  |string   | Any additional information about the park.  |    
-| `rating`  |number  | Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `rating`  |number  | (Optional) Dog owner rating for the park, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
 | `id`  |number  | The record ID of the park.  | 
 
 

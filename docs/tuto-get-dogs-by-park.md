@@ -44,6 +44,7 @@ The request returns an array of two parks. Make note of `id`: `3`.
 ```
  ## 2. Find dogs by park id
  Let's find who is a regular attendee at Madison Dog Park with `id`: `3` and check if they would make a suitable playmate.
+ 
  ### Request
 
 <span class="button" id="get">GET</span>`http://localhost:3000/dog?park_id=3`

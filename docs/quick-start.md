@@ -16,12 +16,15 @@ If you want to wander further afield, read our advanced [Tutorials](index.md#tut
  2. Open the [Postman desktop app](https://www.postman.com/downloads/).
     
 
-## Find a park in your town
+## Find a dog park in your town
 To locate a dog park in a specific town - in this example, let's use Madison CT - send this request:
 
-<span class="button" id="post">POST</span>`http://localhost:3000/park?town=Madison`
+<span class="button" id="get">GET</span>`http://localhost:3000/park?town=Madison`
 
 If  a park record is found for Madison CT, WOOF! returns the following details:
+
+**Status code:** <span class="status-2xx">200 OK</span>
+
 ```json
 {
     "park_name": "Madison Dog Park",
@@ -43,6 +46,7 @@ This request creates a new dog record in the service.
 <span class="button" id="post">POST</span>`http://localhost:3000/dog/`
 
 To add a profile for Tiana, the Husky Cross, send this information in the body of the request:
+
 ```json
 {
     "name": "Tiana",
@@ -62,6 +66,9 @@ Make sure you select a park. In our case, we will use the park we've just found 
 
 
 The service returns the following response, with `id`: `9` for Tiana:
+
+**Status code:** <span class="status-2xx">201 Created</span>
+
 
 ```json
 {
@@ -88,6 +95,8 @@ To add a new par to WOOF!, send this request:
 
 
 Send as much information about the park as possible in the body of the request. 
+
+**Status code:** <span class="status-2xx">201 Created</span>
 
 ```json
 {

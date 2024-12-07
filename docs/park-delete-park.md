@@ -18,7 +18,7 @@ Delete the details of a `par` from the WOOF! API.
 
 ## Sample request
 ```
-{base_url}/park/6
+DELETE {base_url}/park/6
 ```
 
 
