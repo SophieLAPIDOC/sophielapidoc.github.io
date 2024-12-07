@@ -35,7 +35,7 @@ For detailed instructions, refer to [Fork a repository](https://docs.github.com/
 For detailed instructions, refer to [Clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) on GitHub Docs.
 
 ## Test the json-server
-**Note:** This example assume your deveopement environement is Windows. On other development environement, you may want to use the `cmd` tool instead of GitBash. 
+**Note:** This example assumes your deveopement environement is set up Windows. On other development environement, you may want to use the CommandPrompt tool instead of GitBash. 
 
 1. Open GitHub Desktop.
 2. Ensure **Current repository** is set to cloned copy of WOOF!
