@@ -46,7 +46,7 @@ For detailed instructions, refer to [Clone a repository](https://docs.github.com
     ![OpenGItBash](./assets/site-images/open-gitbash.png)
 3. In GitBash, check  it displays the file path to your cloned repository.
     
-    ![gITbASHpATH](./assets/site-images/gitbash-PATH.png)
+    ![GitBashPath](./assets/site-images/gitbash-PATH.png)
 4. Run the following command to navigate to the API directory:
 
     ```
