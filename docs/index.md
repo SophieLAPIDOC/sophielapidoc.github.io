@@ -2,7 +2,7 @@
 
 Greetings, Humans! 
 
-The WOOF! API is a service dedicated to connecting dogs, parks and people.
+WOOF! The Dog Park Service is a REST API service dedicated to connecting dogs, parks and people.
 The WOOF! service aims to enhance your dog walking experience by connecting you and your dog to the best parks the country.
 * **New in town?** Quickly connect to established dog groups.
 * **Just passing through?** Take a break in a new park with all the required amenities where you can also throw a ball and maybe even have a chat.
@@ -26,7 +26,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * [Find other small dogs in your favourite park](tuto-get-park-small-dogs.md).
 * [Find who goes to your favourite park](tuto-get-dogs-by-park.md).
 
-## REST API Reference
+## Reference
 * [dog](dog-ref.md)
     * [Get all dogs](dog-get-all-dogs.md)
     * [Find a dog by ID](dog-get-dog-by-id.md)
